@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'funnel_sans';
+    src: url(/assets/fonts/Funnel_Sans/static/FunnelSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'markazi_text';
+    src: url(/assets/fonts/Markazi_Text/static/MarkaziText-Regular.ttf)
+    format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url(/assets/fonts/Nunito/static/Nunito-Regular.ttf)
+    format('truetype');
+    font-weight: 400;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'funnel_sans', sans-serif;
+}
+
+/* Body */
+body {
+    margin: 0 10%;
+}
+
+/* Main */
+main{
+    padding: 3rem;
+}
+
+.section-group {
+    padding: 10px;
+    margin: 1.5rem auto;
+    border: 2px solid gray;
+}
+.elements-group{
+    width: 100%;
+}
+
+.box-group {
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    margin: 20px auto;
+    padding: 3rem;
+}
+
+/* Individual Colors */
+#navy-blue {
+    color: white;
+    background-color: #001A6E;
+}
+
+#ocean-blue {
+    color: white;
+    background-color: #074799;
+}
+
+#forest-green {
+    color: white;
+    background-color: #009990;
+}
+
+#sand-teal {
+    background-color: #E1FFBB;
+}
